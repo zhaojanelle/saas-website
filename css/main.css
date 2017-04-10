@@ -1,0 +1,135 @@
+html {
+  font-family:;
+}
+
+header {
+  padding: 0;
+  text-align: left;
+  position: relative;
+  z-index: 1;
+  background-color: #F4F4F4;
+}
+
+.section-heading {
+  width: 80%;
+  text-align: left;
+  padding-left: 1rem;
+}
+
+/*NAVIGATION CODE */
+
+.nav {
+  list-style-type: none;
+  background-color: #F4F4F4;
+  margin: 0;
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  width: 100%;
+  text-align: center;
+  padding: 1.5rem 0 .5rem;
+}
+
+.nav-check:checked ~ .nav {
+  display: block;
+}
+
+.nav-check {
+  position: absolute;
+  top: -7em;
+}
+
+.nav-label {
+  cursor: pointer;
+  font-size: 1.25rem;
+  width: 30px;
+  display: inline-block;
+  position: absolute;
+  right: 1rem;
+  bottom: .7rem;
+}
+
+.nav-check:checked ~ .nav-label {
+  background-color: ;
+}
+
+.nav-open,
+.nav-close {
+  display: block;
+  width: 100%;
+}
+
+.nav-close {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-open {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-close {
+  display: block;
+}
+
+
+.nav a {
+  color: ;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+  background-color: ;
+}
+
+.nav li {
+  padding: .5rem;
+}
+
+.nav li:hover {
+  background-color: ;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .nav-open, .nav-close {
+    display: none;
+  }
+
+  .nav {
+    display: inline-block;
+    position: static;
+    text-align: right;
+    padding-right: 1rem;
+  }
+
+  header {
+    overflow: hidden;
+  }
+
+  .section-heading {
+    float: left;
+    width: 35%;
+  }
+
+  .section-nav {
+    float: right;
+    width: 65%;
+  }
+
+  .nav li {
+    display: inline-block;
+  }
+
+  .nav li:hover {
+    background-color: ;
+  }
+
+  .nav a:hover {
+    text-decoration: none;
+  }
+}
+
+.cities {
+  color: red;
+}
