@@ -1,5 +1,6 @@
 html {
-  font-family:;
+  font-family: 'Comfortaa';
+  background-color: #F4F4F4;
 }
 
 header {
@@ -8,6 +9,14 @@ header {
   position: relative;
   z-index: 1;
   background-color: #F4F4F4;
+}
+
+h1 {
+  color: #FDB595;
+}
+
+h2 {
+  color: #A9D9FD
 }
 
 .section-heading {
@@ -131,5 +140,9 @@ header {
 }
 
 .cities {
-  color: red;
+  color: white;
+}
+
+.city-card:hover {
+  filter: brightness(50%);
 }

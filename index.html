@@ -10,6 +10,7 @@
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,700" rel="stylesheet">
 </head>
 <body>
   <header>
@@ -24,9 +25,9 @@
             <img class="nav-close" src="images/nav-icon-close.svg" alt="Close Navigation">
           </label>
           <ul class="nav list-group">
-            <li><a href="#products">Features</a></li>
-            <li><a href="#contact">Pricing</a></li>
-            <li><a href="#about">Sign up</a></li>
+            <li><a href="/features.html">Features</a></li>
+            <li><a href="/pricing.html">Pricing</a></li>
+            <li><a href="/signup.html">Sign up</a></li>
           </ul>
         </nav>
       </div>
@@ -34,11 +35,12 @@
 
     <main>
       <section class="banner">
-        <figure class="clearfix">
-          <img class="img-flex relative" src="images/banner-woman-vr.jpg" alt="">
+        <figure class="relative">
+          <img class="img-flex" src="images/banner-woman-vr.jpg" alt="">
           <figcaption class="pin-center">
             <h1>EXPERIENCE THE WORLD</h1>
             <p>Turn your photos into a virtual reality landscape in seconds.</p>
+            <a class="btn" href="#">Sign up now!</a>
           </figcaption>
         </figure>
       </section>
@@ -48,35 +50,37 @@
       </section>
 
       <section class="explore">
-        <h2>Explore Some Places</h2>
-        <p></p>
+        <h2 class="center">Explore Some Places</h2>
+        <p>Here are some cities our users have created with StitchVR. Explore for yourself.</p>
         <a class="width-half left" href="#">
-          <figure class="clearfix">
-            <img class="relative img-flex" src="images/london.jpg" alt="">
+          <figure class="relative push-0">
+            <img class="img-flex city-card" src="images/london.jpg" alt="">
             <figcaption class="pin-center zindex-1000 cities"><h3>Hong Kong</h3></figcaption>
           </figure>
         </a>
         <a class="width-half right" href="#">
-          <figure>
-            <img class="img-flex" src="images/london.jpg" alt="">
-            <figcaption><h3>London</h3></figcaption>
+          <figure class="relative push-0">
+            <img class="img-flex city-card" src="images/london.jpg" alt="">
+            <figcaption class="pin-center zindex-1000 cities"><h3>London</h3></figcaption>
           </figure>
         </a>
         <a class="width-half left" href="#">
-          <figure>
-            <img class="img-flex" src="images/london.jpg" alt="">
-            <figcaption><h3>Paris</h3></figcaption>
+          <figure class="relative push-0">
+            <img class="img-flex city-card" src="images/london.jpg" alt="">
+            <figcaption class="pin-center zindex-1000 cities"><h3>Paris</h3></figcaption>
           </figure>
         </a>
         <a class="width-half right" href="#">
-          <figure>
-            <img class="img-flex" src="images/london.jpg" alt="">
-            <figcaption><h3>Tokyo</h3></figcaption>
+          <figure class="relative push-0">
+            <img class="img-flex city-card" src="images/london.jpg" alt="">
+            <figcaption class="pin-center zindex-1000 cities"><h3>Tokyo</h3></figcaption>
           </figure>
         </a>
 
       </section>
     </main>
-  <footer></footer>
+  <footer>
+    <cite class="island">© StitchVR Inc.</cite>
+  </footer>
 </body>
 </html>
