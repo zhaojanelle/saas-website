@@ -50,8 +50,7 @@ h2 {
 }
 
 .nav a:hover {
-  background-color: #333;
-  color: #fff;
+  color: #71CA91;
 }
 
 [type="checkbox"] + label::before {
@@ -92,11 +91,45 @@ h2 {
   display: block;
 }
 
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 38em) {
 
   header {
     overflow: hidden;
   }
+
+  .nav {
+    background-color: transparent;
+  }
+
+  .nav-open, .nav-close {
+    display: none;
+  }
+
+  .nav {
+    display: inline-block;
+    position: static;
+    text-align: right;
+    padding-right: 0;
+  }
+
+  .section-heading {
+    float: left;
+    width: 35%;
+  }
+
+  .section-nav {
+    float: right;
+    width: 65%;
+  }
+
+  .nav li {
+    display: inline-block;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
 
   .section-heading {
     float: left;
