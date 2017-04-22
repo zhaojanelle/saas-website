@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>StitchVR - sign up form</title>
+  <meta name="handheldfriendly" content="true">
+  <meta name="mobileoptimized" content="240">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,700" rel="stylesheet">
+</head>
+<body>
+  <header>
+      <div class="section-heading">
+        <h1>StitchVR</h1>
+      </div>
+      <div class="section-nav">
+        <nav class="navigation">
+          <input type="checkbox" class="nav-check" id="nav-check">
+          <label class="nav-label" for="nav-check">
+            <img class="nav-open" src="images/nav-icon.svg" alt="Open Navigation">
+            <img class="nav-close" src="images/nav-icon-close.svg" alt="Close Navigation">
+          </label>
+          <ul class="nav list-group">
+            <li><a href="features.html">Features</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="signup.html">Sign up</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="max-length pad-top">
+        <form class="" action="https://formspree.io/zhaojanelle@gmail.com" method="post">
+          <fieldset class="push-half">
+            <legend>Sign Up Form</legend>
+            <div class="grid">
+              <div class="unit xs-1 s-1 m-1-2 gutter-half pad-top-quarter">
+                <label for="fname" class="label-block push-eighth">First Name</label>
+                <input id="fname" name="fname">
+              </div>
+              <div class="unit xs-1 s-1 m-1-2 gutter-half pad-top-quarter">
+                <label for="fname" class="label-block push-eighth">Last Name</label>
+                <input id="fname" name="fname">
+              </div>
+              <div class="unit xs-1 s-1 m-1 gutter-half pad-top-quarter">
+                <label for="email" class="label-block push-eighth">Email</label>
+                <input id="email" name="email">
+              </div>
+            </div>
+          </fieldset>
+          <div class="center-text push-2">
+            <button class="btn apply-btn giga" type="submit" value="send">Sign up now!</button>
+          </div>
+        </form>
+      </div>
+    </main>
+  <footer>
+    <cite class="island">© StitchVR Inc.</cite>
+  </footer>
+</body>
+</html>
