@@ -37,6 +37,10 @@ h2 {
   height: 20px;
 }
 
+.wrapper {
+  max-width: 70em;
+}
+
 /*BUTTON CODE*/
 
 .btn-green {
@@ -171,6 +175,23 @@ h1 {
   font-weight: 300;
 }
 
+/*WHAT OTHERS ARE SEEING SECTION*/
+
+.othersseeing {
+  background-color: #F8F8F8;
+}
+
+.othersseeing h3 {
+  color: #FDE5C0;
+  font-size: 3.3rem;
+  font-weight: 300;
+  margin: 0;
+}
+
+.othersseeing img {
+  filter: brightness(80%);
+}
+
 @media only screen and (min-width: 25em) {
 
   h1 {
@@ -239,14 +260,12 @@ h1 {
     display: inline-block;
   }
 
-  .designedyou img {
-    max-height: none;
-    height: 100%;
-    width: 100%;
-  }
-
   .designedyou h2 {
     font-size: 4rem;
+  }
+
+  .othersseeing h3 {
+    font-size: 2.5rem;
   }
 
 }
@@ -265,14 +284,20 @@ h1 {
     right: 30px;
   }
 
-}
+  .othersseeing h3 {
+    font-size: 2rem;
+  }
 
-.cities {
-  color: white;
-}
+  .designedyou img {
+    max-height: none;
+    height: 100%;
+    width: 100%;
+  }
 
-.city-card:hover {
-  filter: brightness(50%);
+  .designedyou figcaption {
+    margin-left: 3rem;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
@@ -283,6 +308,10 @@ h1 {
 
   .banner-text {
     right: 70px;
+  }
+
+  .designedyou figcaption {
+    margin-left: 4rem;
   }
 
 }
