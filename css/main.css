@@ -1,6 +1,7 @@
 html {
   font-family: 'Comfortaa';
   color: #616264;
+  -webkit-font-smoothing: antialiased;
 }
 
 header {
@@ -147,10 +148,41 @@ h1 {
   font-weight: 300;
 }
 
+/*DESIGNED FOR YOU SECTION*/
+
+.designedyou h2 {
+  color: #FDE5C0;
+  font-size: 3.6rem;
+  line-height: 1.2;
+}
+
+.designedyou figcaption {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.designedyou img {
+  max-height: 600px;
+}
+
+.designedyou p {
+  font-family: "Open Sans";
+  color: #fff;
+  font-weight: 300;
+}
+
 @media only screen and (min-width: 25em) {
 
   h1 {
     font-size: 3.5rem;
+  }
+
+  .designedyou h2 {
+    font-size: 3.8rem;
+  }
+
+  .designedyou figcaption {
+    max-width: 25rem;
   }
 
 }
@@ -205,6 +237,16 @@ h1 {
 
   .nav li {
     display: inline-block;
+  }
+
+  .designedyou img {
+    max-height: none;
+    height: 100%;
+    width: 100%;
+  }
+
+  .designedyou h2 {
+    font-size: 4rem;
   }
 
 }
