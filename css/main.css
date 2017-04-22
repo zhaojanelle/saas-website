@@ -11,10 +11,6 @@ header {
   right: 0;
 }
 
-h1 {
-  color: #FDB595;
-}
-
 h2 {
   color: #A9D9FD
 }
@@ -28,6 +24,20 @@ h2 {
   height: 20px;
 }
 
+/*BUTTON CODE*/
+
+.btn-green {
+  background-color: #71CA91;
+  border-radius: 20px;
+  font-weight: 300;
+  border: 0;
+  padding: .5rem 2rem;
+}
+
+.btn-green:hover {
+  background-color: #87D6A1;
+}
+
 /*NAVIGATION CODE */
 
 .nav {
@@ -39,7 +49,6 @@ h2 {
   top: 100%;
   width: 100%;
   background-color: rgba(251, 227, 191, 0.92);
-
 }
 
 .nav a {
@@ -69,7 +78,7 @@ h2 {
   display: inline-block;
   width: 30px;
   position: absolute;
-  right: 0;
+  right: 1.3rem;
   bottom: 0;
 }
 
@@ -91,10 +100,63 @@ h2 {
   display: block;
 }
 
+/*BANNER CODE */
+
+.banner {
+  background-image: url('../images/banner-main.jpg');
+  min-height: 600px;
+  background-size: cover;
+  background-position: 25% 0%;
+}
+
+.banner-text {
+  text-align: right;
+  bottom: 30px;
+}
+
+.banner-text p {
+  color: #fff;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  color: #FDE5C0;
+}
+
+.purple {
+  color: #C9B4FA;
+}
+
+@media only screen and (min-width: 25em) {
+
+  h1 {
+    font-size: 3.5rem;
+  }
+
+}
+
 @media only screen and (min-width: 38em) {
+
+  h1 {
+    font-size: 3.6rem;
+  }
 
   header {
     overflow: hidden;
+  }
+
+  .banner {
+    height: 58vw;
+    min-height: 700px;
+    background-position: center center;
+  }
+
+  .banner-text {
+    top: 50%;
+    transform: translateY(-30%);
+    right: 0;
+    width: 80%;
   }
 
   .nav {
@@ -130,10 +192,16 @@ h2 {
 
 @media only screen and (min-width: 60em) {
 
-
   .section-heading {
     float: left;
     width: 35%;
+  }
+
+  .banner-text {
+    top: 50%;
+    transform: translateY(-25%);
+    width: 50%;
+    right: 30px;
   }
 
 }
@@ -144,4 +212,16 @@ h2 {
 
 .city-card:hover {
   filter: brightness(50%);
+}
+
+@media only screen and (min-width: 90em) {
+
+  h1 {
+    font-size: 4.3rem;
+  }
+
+  .banner-text {
+    right: 70px;
+  }
+
 }
