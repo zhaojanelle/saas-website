@@ -1,5 +1,6 @@
 html {
   font-family: 'Comfortaa';
+  color: #616264;
 }
 
 header {
@@ -12,7 +13,18 @@ header {
 }
 
 h2 {
-  color: #A9D9FD
+  color: #5C91B0;
+  font-size: 1.75rem;
+  font-weight: normal;
+}
+
+.yellow-dash {
+  width: 83px;
+  margin: 0 auto;
+  background-color: #FBE3BF;
+  height: 5px;
+  border: 0;
+  border-radius: 2px;
 }
 
 .section-heading {
@@ -126,6 +138,13 @@ h1 {
 
 .purple {
   color: #C9B4FA;
+}
+
+/*HOW IT WORKS SECTION*/
+
+.how-desc {
+  color: #808183;
+  font-weight: 300;
 }
 
 @media only screen and (min-width: 25em) {
