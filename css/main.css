@@ -280,6 +280,36 @@ footer {
   color: #95989A;
 }
 
+/*PRICING PAGE*/
+
+.banner-pricing {
+  background-image: url('../images/banner-pricing.jpg');
+  min-height: 1200px;
+  background-size: cover;
+  background-position: 0% 0%;
+}
+
+.pricing-table {
+  table-layout: auto;
+}
+
+.purple-bg {
+  background-color: #C9B4FA;
+  padding: 1rem 0;
+}
+
+.checkmark {
+  width: 25%;
+}
+
+.pricing-table td, .pricing-table th {
+  border: none;
+}
+
+.pricing-table td {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
 @media only screen and (min-width: 25em) {
 
   h1 {
