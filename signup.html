@@ -35,15 +35,34 @@
       </div>
     </header>
 
-    <main class="push banner-signup relative">
-      <div class="wrapper signup-text absolute island">
+    <main class="push banner-signup">
+      <div class="wrapper signup-text island">
         <div class="push-double">
-          <h2 class="push-half">How it Works</h2>
+          <h2 class="push-half">Sign up now!</h2>
           <hr class="yellow-dash center-text">
-          <p class="pad-t-1-2 white">Enjoyed by over 23,000 community members around the world, StitchVR is the number one VR landscape viewer. Get started for free!</p>
+          <p class="pad-t white">Enjoyed by over 23,000 community members around the world, StitchVR is the number one VR landscape viewer. Get started for free!</p>
         </div>
-        <div class="signup-form">
-
+        <div class="signup-form island text-left">
+          <form method="post" action="//formspree.io/zhaojanelle@gmail.com">
+            <label class="signup-label" for="email">EMAIL</label>
+            <input class="push signup-input" type="email" id="email" placeholder="your@email.com" required>
+            <label class="signup-label" for="fname">FIRST NAME</label>
+            <input class="push signup-input" type="text" id="fname" placeholder="Janelle" required>
+            <label class="signup-label" for="lname">LAST NAME</label>
+            <input class="push signup-input" type="text" id="lname" placeholder="Zhao" required>
+            <label class="signup-label" for="referral">REFERRAL</label>
+            <select class="push signup-input" id="referral">
+              <option>Facebook</option>
+              <option>Twitter</option>
+              <option>Instagram</option>
+              <option>Email</option>
+              <option>Word of Mouth</option>
+              <option>Others</option>
+            </select>
+            <div class="text-center">
+              <button class="btn btn-green" type="submit">Complete Sign Up</button>
+            </div>
+          </form>
         </div>
       </div>
     </main>
