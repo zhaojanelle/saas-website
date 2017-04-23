@@ -289,12 +289,23 @@ footer {
   background-position: 0% 0%;
 }
 
+.table-heading {
+  color: #fff;
+}
+
 .pricing-table {
   table-layout: auto;
+  max-width: 380px;
+  margin: 0 auto 2rem;
 }
 
 .purple-bg {
   background-color: #C9B4FA;
+  padding: 1rem 0;
+}
+
+.green-bg {
+  background-color: #71CA91;
   padding: 1rem 0;
 }
 
@@ -308,6 +319,10 @@ footer {
 
 .pricing-table td {
   background-color: rgba(255, 255, 255, 0.9);
+}
+
+.wrapper-pricing {
+  max-width: 60em;
 }
 
 @media only screen and (min-width: 25em) {
@@ -468,6 +483,10 @@ footer {
   .signup-text {
     width: 100%;
     padding-top: 150px;
+  }
+
+  .pricing-table {
+    max-width: 430px;
   }
 
 }
