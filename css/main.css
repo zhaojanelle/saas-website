@@ -267,7 +267,7 @@ footer {
 }
 
 .signup-form {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, .9);
   border-radius: 20px;
   max-width: 400px;
   margin: 0 auto;
@@ -365,6 +365,10 @@ footer {
 
 iframe {
   border: 0;
+}
+
+.max-length {
+  max-width: 58em;
 }
 
 @media only screen and (min-width: 25em) {
