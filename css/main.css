@@ -53,6 +53,7 @@ h2 {
 
 .btn-green:hover {
   background-color: #87D6A1;
+  border-radius: 22px;
 }
 
 /*NAVIGATION CODE */
@@ -64,7 +65,6 @@ h2 {
   position: absolute;
   right: 0;
   top: 100%;
-  width: 100%;
   background-color: rgba(251, 227, 191, 0.92);
 }
 
@@ -118,6 +118,10 @@ h2 {
   display: block;
 }
 
+a.on-page {
+  color: #71CA91;
+}
+
 /*BANNER CODE */
 
 .banner {
@@ -149,7 +153,7 @@ h1 {
 
 /*HOW IT WORKS SECTION*/
 
-.how-desc {
+.desc {
   color: #808183;
   font-weight: 300;
 }
@@ -325,6 +329,43 @@ footer {
   max-width: 60em;
 }
 
+/*FEATURES PAGE*/
+
+.video {
+  width: 100%;
+  max-width: 60em;
+  height: 56vw;
+  max-height: 33.75em;
+}
+
+.features-text {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.feature {
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.feature p {
+  text-align: left;
+}
+
+.feature h3 {
+  font-size: 1.2rem;
+}
+
+.grey-bg {
+  background-color: #F8F8F8;
+}
+
+.features-signup {
+  background-color: #fff;
+}
+
 @media only screen and (min-width: 25em) {
 
   h1 {
@@ -440,6 +481,14 @@ footer {
 
   .socials {
     float: right;
+  }
+
+  .feature h3 {
+    font-size: 1rem;
+  }
+
+  .feature p {
+    font-size: .9rem;
   }
 
 }
