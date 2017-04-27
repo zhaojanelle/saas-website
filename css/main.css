@@ -53,7 +53,6 @@ h2 {
 
 .btn-green:hover {
   background-color: #87D6A1;
-  border-radius: 22px;
 }
 
 /*NAVIGATION CODE */
@@ -65,6 +64,7 @@ h2 {
   position: absolute;
   right: 0;
   top: 100%;
+  width: 100%;
   background-color: rgba(251, 227, 191, 0.92);
 }
 
@@ -74,6 +74,7 @@ h2 {
   padding: 0;
   text-decoration: none;
   color: #fff;
+  font-size: 1.3rem;
 }
 
 .nav a:hover {
@@ -118,10 +119,6 @@ h2 {
   display: block;
 }
 
-a.on-page {
-  color: #71CA91;
-}
-
 /*BANNER CODE */
 
 .banner {
@@ -153,7 +150,7 @@ h1 {
 
 /*HOW IT WORKS SECTION*/
 
-.desc {
+.how-desc {
   color: #808183;
   font-weight: 300;
 }
@@ -413,10 +410,6 @@ footer {
     width: 80%;
   }
 
-  .nav {
-    background-color: transparent;
-  }
-
   .nav-open, .nav-close {
     display: none;
   }
@@ -481,14 +474,6 @@ footer {
 
   .socials {
     float: right;
-  }
-
-  .feature h3 {
-    font-size: 1rem;
-  }
-
-  .feature p {
-    font-size: .9rem;
   }
 
 }
