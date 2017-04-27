@@ -1,5 +1,5 @@
 html {
-  font-family: "Comfortaa";
+  font-family: Comfortaa;
   color: #616264;
   -webkit-font-smoothing: antialiased;
 }
@@ -47,7 +47,7 @@ h2 {
   max-width: 70em;
 }
 
-/*BUTTON CODE*/
+/* BUTTON CODE */
 
 .btn-green {
   background-color: #71ca91;
@@ -71,7 +71,7 @@ h2 {
   right: 0;
   top: 100%;
   width: 100%;
-  background-color: rgba(251, 227, 191, 0.92);
+  background-color: rgba(251, 227, 191, .92);
 }
 
 .nav a {
@@ -247,7 +247,7 @@ footer {
 }
 
 .nav-dark {
-  background-color: rgba(97, 98, 100, 0.53);
+  background-color: rgba(97, 98, 100, .53);
 }
 
 .signup-text {
@@ -295,8 +295,9 @@ footer {
   background-position: 0% 0%;
 }
 
-.table-heading {
+.pricing-table h2 {
   color: #fff;
+  margin: 0;
 }
 
 .pricing-table {
@@ -324,7 +325,7 @@ footer {
 }
 
 .pricing-table td {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, .9);
 }
 
 .wrapper-pricing {
@@ -360,6 +361,10 @@ footer {
 .features-signup {
   background-color: #fff;
   text-align: center;
+}
+
+iframe {
+  border: 0;
 }
 
 @media only screen and (min-width: 25em) {
@@ -430,7 +435,7 @@ footer {
   .nav-signup a {
     border: 1px solid #fff;
     border-radius: 25px;
-    padding: 0.2rem .8rem;
+    padding: .2rem .8rem;
   }
 
   .nav-signup a:hover {
