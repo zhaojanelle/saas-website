@@ -1,5 +1,5 @@
 html {
-  font-family: 'Comfortaa';
+  font-family: "Comfortaa";
   color: #616264;
   -webkit-font-smoothing: antialiased;
 }
@@ -14,7 +14,13 @@ header {
 }
 
 h2 {
-  color: #5C91B0;
+  color: #5c91b0;
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+.headings {
+  color: #5c91b0;
   font-size: 1.75rem;
   font-weight: bold;
 }
@@ -22,7 +28,7 @@ h2 {
 .yellow-dash {
   width: 83px;
   margin: 0 auto;
-  background-color: #FBE3BF;
+  background-color: #fbe3bf;
   height: 5px;
   border: 0;
   border-radius: 2px;
@@ -44,7 +50,7 @@ h2 {
 /*BUTTON CODE*/
 
 .btn-green {
-  background-color: #71CA91;
+  background-color: #71ca91;
   border-radius: 20px;
   font-weight: 300;
   border: 0;
@@ -52,10 +58,10 @@ h2 {
 }
 
 .btn-green:hover {
-  background-color: #87D6A1;
+  background-color: #87d6a1;
 }
 
-/*NAVIGATION CODE */
+/* NAVIGATION CODE */
 
 .nav {
   margin: 0;
@@ -78,7 +84,7 @@ h2 {
 }
 
 .nav a:hover {
-  color: #71CA91;
+  color: #71ca91;
 }
 
 [type="checkbox"] + label::before {
@@ -89,7 +95,6 @@ h2 {
 .nav-check:checked ~ .nav {
   display: block;
 }
-
 
 .nav-label {
   cursor: pointer;
@@ -119,10 +124,10 @@ h2 {
   display: block;
 }
 
-/*BANNER CODE */
+/* BANNER CODE */
 
 .banner {
-  background-image: url('../images/banner-main.jpg');
+  background-image: url("../images/banner-main.jpg");
   min-height: 600px;
   background-size: cover;
   background-position: 25% 0%;
@@ -141,24 +146,24 @@ h2 {
 h1 {
   font-size: 2.5rem;
   line-height: 1.2;
-  color: #FDE5C0;
+  color: #fde5c0;
 }
 
 .purple {
-  color: #C9B4FA;
+  color: #c9b4fa;
 }
 
-/*HOW IT WORKS SECTION*/
+/* HOW IT WORKS SECTION */
 
 .how-desc {
   color: #808183;
   font-weight: 300;
 }
 
-/*DESIGNED FOR YOU SECTION*/
+/* DESIGNED FOR YOU SECTION */
 
 .designedyou h2 {
-  color: #FDE5C0;
+  color: #fde5c0;
   font-size: 3.6rem;
   line-height: 1.2;
 }
@@ -178,14 +183,14 @@ h1 {
   font-weight: 300;
 }
 
-/*WHAT OTHERS ARE SEEING SECTION*/
+/* WHAT OTHERS ARE SEEING SECTION */
 
 .othersseeing {
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
 }
 
 .othersseeing h3 {
-  color: #FDE5C0;
+  color: #fde5c0;
   font-size: 3.3rem;
   font-weight: 300;
   margin: 0;
@@ -195,20 +200,20 @@ h1 {
   filter: brightness(80%);
 }
 
-/*STITCHVR IN NUMBERS*/
+/* STITCHVR IN NUMBERS */
 
 .innumbers {
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
 }
 
 .innumbers-1 {
   font-size: 3.6rem;
-  color: #836BE8;
+  color: #836be8;
 }
 
 .innumbers-2 {
   font-size: 2.75rem;
-  color: #C9B4FA;
+  color: #c9b4fa;
 }
 
 .innumbers-t-1 {
@@ -223,19 +228,19 @@ h1 {
 
 .waitingfor {
   font-size: 1.7rem;
-  color: #5C91B0;
+  color: #5c91b0;
 }
 
-/*FOOTER*/
+/* FOOTER */
 
 footer {
   text-align: center;
 }
 
-/*SIGN UP PAGE*/
+/* SIGN UP PAGE */
 
 .banner-signup {
-  background-image: url('../images/banner-signup.jpg');
+  background-image: url("../images/banner-signup.jpg");
   min-height: 900px;
   background-size: cover;
   background-position: 25% 0%;
@@ -270,21 +275,21 @@ footer {
 
 .signup-input {
   border: none;
-  border-bottom: 1px solid #5C91B0;
+  border-bottom: 1px solid #5c91b0;
   background-color: transparent;
   font-size: .75rem;
-  color: #ABABAC;
+  color: #ababac;
 }
 
 .signup-label {
   font-size: 1rem;
-  color: #95989A;
+  color: #95989a;
 }
 
-/*PRICING PAGE*/
+/* PRICING PAGE */
 
 .banner-pricing {
-  background-image: url('../images/banner-pricing.jpg');
+  background-image: url("../images/banner-pricing.jpg");
   min-height: 1200px;
   background-size: cover;
   background-position: 0% 0%;
@@ -301,12 +306,12 @@ footer {
 }
 
 .purple-bg {
-  background-color: #C9B4FA;
+  background-color: #c9b4fa;
   padding: 1rem 0;
 }
 
 .green-bg {
-  background-color: #71CA91;
+  background-color: #71ca91;
   padding: 1rem 0;
 }
 
@@ -326,7 +331,7 @@ footer {
   max-width: 60em;
 }
 
-/*FEATURES PAGE*/
+/* TOUR PAGE */
 
 .features-text {
   text-align: center;
@@ -349,7 +354,7 @@ footer {
 }
 
 .grey-bg {
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
 }
 
 .features-signup {
@@ -429,7 +434,7 @@ footer {
   }
 
   .nav-signup a:hover {
-    border-color: #71CA91;
+    border-color: #71ca91;
   }
 
   .section-heading {
