@@ -328,13 +328,6 @@ footer {
 
 /*FEATURES PAGE*/
 
-.video {
-  width: 100%;
-  max-width: 60em;
-  height: 56vw;
-  max-height: 33.75em;
-}
-
 .features-text {
   text-align: center;
   margin: 0 auto;
@@ -415,11 +408,17 @@ footer {
   }
 
   .nav {
+    background-color: transparent;
     display: block;
     position: absolute;
     text-align: right;
     padding: .2rem 1rem 0 0;
     top: 0;
+    width: 80%;
+  }
+
+  .nav a {
+    font-size: 1rem;
   }
 
   .nav-signup a {
